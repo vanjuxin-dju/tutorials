@@ -36,7 +36,7 @@ service CatalogService {
 }
     ```
 
-1. Save your changes.
+2. Save your changes.
 
     >In this sample code, we set a value of 1000 for the property amount of each returned entity in reading operations.
 
@@ -92,7 +92,7 @@ service CatalogService {
     }  
 ```
 
-1. Save your changes.
+2. Save your changes.
 
     >In this sample code, we set a value of 1000 for the property amount of each returned entity in reading operations.
 
