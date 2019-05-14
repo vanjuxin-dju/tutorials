@@ -67,7 +67,7 @@ service CatalogService {
       private static final Logger LOG = LoggerFactory.getLogger (OrdersService.class.getName());
 
       @BeforeRead (entity="Orders", serviceName="CatalogService")
-      public BeforeReadResponse beforeReadOrders (ReadRequest req, ExtensionHelper h){
+      public BeforeReadResponse beforeReadOrders (ReadRequest req, ExtensionHelper h) {
         LOG.error ("##### Orders - beforeReadOrders ########");
         return BeforeReadResponse.setSuccess().response();
       }
@@ -83,7 +83,7 @@ service CatalogService {
       public QueryResponse afterQueryOrders (QueryRequest req, QueryResponseAccessor res, ExtensionHelper h) {
         List<EntityData> dataList = res.getEntityDataList(); //original list
         List<EntityData> modifiedList = new ArrayList<EntityData>(dataList.size()); //modified list
-        for(EntityData ed : dataList){
+        for (EntityData ed : dataList) {
     		  EntityData ex = EntityData.getBuilder(ed).addElement("amount", 1000).buildEntityData("Orders");
     		  modifiedList.add(ex);
     	  }
