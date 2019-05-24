@@ -1,7 +1,7 @@
 ---
 title: My Own Tutorial
 description: example
-tags: [products>sap-hana, topic>api, tutorial>beginner, tutorial>license]
+tags: [products>sap-hana, topic>api, tutorial>beginner, tutorial>licnse]
 primary_tag: tutorial:product/mobile
 ---
 ### Time to Complete
