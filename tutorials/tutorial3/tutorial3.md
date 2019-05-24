@@ -1,7 +1,7 @@
 ---
 title: UnicTutorial5_09072018
 description: example
-tags: [products>sap-hana, topic>api, tutorial>beginner, tutorial>licnse]
+tags: [products>sap-hana, topic>api, tutorial>beginner]
 primary_tag: tutorial:product/mobile
 ---
 ### Time to Complete
