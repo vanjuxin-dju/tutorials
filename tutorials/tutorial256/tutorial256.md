@@ -40,6 +40,12 @@ service CatalogService {
 
     >In this sample code, we set a value of 1000 for the property amount of each returned entity in reading operations.
 
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
 [DONE]
 
 [ACCORDION-END]
